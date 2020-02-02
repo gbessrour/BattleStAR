@@ -22,10 +22,11 @@ public class ResistanceScript : MonoBehaviour
                 Destroy(collision.gameObject);
                 health += .1f;
                 slider.value = health;
-                if (health >= 1)
+                if (this.health >= 1)
                 {
                     Debug.Log("Hello");
-                    Destroy(this.gameObject);
+                    //Destroy(this.gameObject);
+                    this.gameObject.SetActive(false);
                 }
             }
             

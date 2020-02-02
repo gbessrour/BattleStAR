@@ -22,11 +22,12 @@ public class EmpireScript : MonoBehaviour
                 Destroy(collision.gameObject);
                 health += .1f;
                 slider.value = health;
-                if (health == 1)
+                if (this.health == 1)
                 {
                     //other.counter++;
                     Debug.Log("goodbye");
-                    Destroy(this.gameObject);
+                    //Destroy(this.gameObject);
+                    this.gameObject.SetActive(false);
                 }            
             }
     }
