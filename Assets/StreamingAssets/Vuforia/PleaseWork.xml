@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="drone3" size="1.000000 1.694823" />
+    <ImageTarget name="drone2" size="1.000000 1.694823" />
+    <ImageTarget name="drone" size="1.000000 1.694823" />
+    <ImageTarget name="drone_image2" size="1.000000 1.725146" />
+    <ImageTarget name="drone_image" size="1.000000 1.725146" />
+  </Tracking>
+</QCARConfig>
