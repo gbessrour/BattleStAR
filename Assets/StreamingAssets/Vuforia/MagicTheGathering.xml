@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="cat-dragon" size="1.000000 1.392857" />
+    <ImageTarget name="token_artifact" size="1.000000 1.392857" />
     <ImageTarget name="vivid-grove" size="1.000000 1.392857" />
-    <ImageTarget name="sunscorch-regent" size="1.000000 1.392857" />
     <ImageTarget name="vivid-crag" size="1.000000 1.392857" />
     <ImageTarget name="arcane-sanctum" size="1.000000 1.392857" />
     <ImageTarget name="jungle-shrine" size="1.000000 1.392857" />
     <ImageTarget name="curse-of-bounty" size="1.000000 1.392857" />
-    <ImageTarget name="steel-hellkite" size="1.000000 1.392857" />
     <ImageTarget name="wayfarer-s-bauble" size="1.000000 1.392857" />
   </Tracking>
 </QCARConfig>

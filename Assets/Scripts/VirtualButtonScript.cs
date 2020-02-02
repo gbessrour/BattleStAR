@@ -8,7 +8,7 @@ public class VirtualButtonScript : MonoBehaviour, IVirtualButtonEventHandler
 
     public GameObject bullet;
     [SerializeField]
-    private float speed = 50f;
+    private float speed = 500f;
 
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
