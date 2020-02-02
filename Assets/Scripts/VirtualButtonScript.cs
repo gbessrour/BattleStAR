@@ -47,4 +47,9 @@ public class VirtualButtonScript : MonoBehaviour, IVirtualButtonEventHandler
         vuforia.RegisterVuforiaStartedCallback(OnVuforiaStarted);
         vuforia.RegisterOnPauseCallback(OnPaused);
     }
+    void Update()
+    {
+        GameObject tempBullet = Instantiate(bullet, bullet.transform.position, Quaternion.identity);
+        tempBullet.transform.Rotate(90.0f, 0.0f, 0.0f, Space.Self);
+    }
 }
