@@ -34,4 +34,10 @@ public class ResistanceScript : MonoBehaviour
         //}
         //victory = true;
     }
+    //void Explode()
+    //{
+    //    var exp = GetComponent<ParticleSystem>();
+    //    exp.Play();
+    //    Destroy(gameObject, exp.duration);
+    //}
 }
